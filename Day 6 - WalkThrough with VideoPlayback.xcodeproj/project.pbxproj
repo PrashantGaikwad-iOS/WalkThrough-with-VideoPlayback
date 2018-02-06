@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3C600F2006346700439A84 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C600E2006346700439A84 /* video.mp4 */; };
 		0DF6B2972000AAB30019E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6B2962000AAB30019E548 /* AppDelegate.swift */; };
 		0DF6B2992000AAB30019E548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6B2982000AAB30019E548 /* ViewController.swift */; };
 		0DF6B29C2000AAB30019E548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6B29A2000AAB30019E548 /* Main.storyboard */; };
 		0DF6B29E2000AAB30019E548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6B29D2000AAB30019E548 /* Assets.xcassets */; };
 		0DF6B2A12000AAB30019E548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6B29F2000AAB30019E548 /* LaunchScreen.storyboard */; };
+		0DF6B2A92000AD290019E548 /* splashVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6B2A82000AD290019E548 /* splashVideo.mp4 */; };
+		0DF6B2AD2000CF2F0019E548 /* lrmlogo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6B2AC2000CF2F0019E548 /* lrmlogo-2.png */; };
+		0DF6B2AF2000D24A0019E548 /* WalkThroghCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6B2AE2000D24A0019E548 /* WalkThroghCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D3C600E2006346700439A84 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		0DF6B2932000AAB30019E548 /* Day 6 - WalkThrough with VideoPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 6 - WalkThrough with VideoPlayback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF6B2962000AAB30019E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DF6B2982000AAB30019E548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		0DF6B29D2000AAB30019E548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DF6B2A02000AAB30019E548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DF6B2A22000AAB30019E548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF6B2A82000AD290019E548 /* splashVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splashVideo.mp4; sourceTree = "<group>"; };
+		0DF6B2AC2000CF2F0019E548 /* lrmlogo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lrmlogo-2.png"; sourceTree = "<group>"; };
+		0DF6B2AE2000D24A0019E548 /* WalkThroghCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroghCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +62,12 @@
 		0DF6B2952000AAB30019E548 /* Day 6 - WalkThrough with VideoPlayback */ = {
 			isa = PBXGroup;
 			children = (
+				0DF6B2A82000AD290019E548 /* splashVideo.mp4 */,
+				0D3C600E2006346700439A84 /* video.mp4 */,
 				0DF6B2962000AAB30019E548 /* AppDelegate.swift */,
 				0DF6B2982000AAB30019E548 /* ViewController.swift */,
+				0DF6B2AE2000D24A0019E548 /* WalkThroghCollectionViewCell.swift */,
+				0DF6B2AC2000CF2F0019E548 /* lrmlogo-2.png */,
 				0DF6B29A2000AAB30019E548 /* Main.storyboard */,
 				0DF6B29D2000AAB30019E548 /* Assets.xcassets */,
 				0DF6B29F2000AAB30019E548 /* LaunchScreen.storyboard */,
@@ -123,7 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF6B2A92000AD290019E548 /* splashVideo.mp4 in Resources */,
+				0D3C600F2006346700439A84 /* video.mp4 in Resources */,
 				0DF6B2A12000AAB30019E548 /* LaunchScreen.storyboard in Resources */,
+				0DF6B2AD2000CF2F0019E548 /* lrmlogo-2.png in Resources */,
 				0DF6B29E2000AAB30019E548 /* Assets.xcassets in Resources */,
 				0DF6B29C2000AAB30019E548 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			files = (
 				0DF6B2992000AAB30019E548 /* ViewController.swift in Sources */,
 				0DF6B2972000AAB30019E548 /* AppDelegate.swift in Sources */,
+				0DF6B2AF2000D24A0019E548 /* WalkThroghCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
